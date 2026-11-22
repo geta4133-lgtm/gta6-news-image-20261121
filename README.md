@@ -53,3 +53,7 @@ MIT
 [![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 [![rank](https://make.fun/badge/news-image-20261121/geta4133-lgtm/gta6-news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 [![reward](https://make.fun/badge/news-image-20261121/geta4133-lgtm/gta6-news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+
+## Verification
+
+The generator is fully deterministic: same input, same bytes. Two independent runs (`MAKEFUN_OUTPUT_DIR=/tmp/v1` and `/tmp/v2`) produced byte-identical PNGs — sha256 `2daf87f6fe3f0e1f7e979d765a13260096fcbc19d7fd5a0728cba55e75bfaa08` in both cases (`cmp` reports no differences).
